@@ -1,13 +1,26 @@
+let quizzes = require("./quizzes.json")
 
-module.exports = (app) => {
+const findAllQuizzes = () =>
+    quizzes
 
-    let quizzes = require("./quizzes")
+const findQuizById = (quizId) =>
+    quizzes.find(quiz => quiz._id === quizId)
 
-    const findAllQuizzes = (req, res) => res.send(quizzes)
-    const findQuizById = (req, res) =>
-        res.send(quizzes.find(q => q._id === req.params['qid']))
+const deleteQuiz = (quizId) =>
+    quizzes = quizzes.filter(quiz => quiz._id !== quizId)
 
-    app.get("/api/quizzes", findAllQuizzes)
+const createQuiz = () => {
+    const newQuiz = {_id: (new Date()).getTime() + "", title: "New Quiz"}
+    quizzes.push(newQuiz)
+    return newQuiz
+}
 
-    app.get("/api/quizzes/:qid", findQuizById)
+const updateQuiz = (quizId, newQuiz) => {
+}
+
+module.exports = {
+    findAllQuizzes: findAllQuizzes,
+    findQuizById: findQuizById,
+    deleteQuiz: deleteQuiz,
+    createQuiz: createQuiz,
 }

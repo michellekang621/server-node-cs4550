@@ -1,13 +1,10 @@
-module.exports = (app) => {
-    let questions = require("./questions")
+let questions = require("./questions")
 
 
-    const findAllQuestions = (req, res) => res.send(questions)
-    const findQuestionById = (req, res) => res.send(questions.filter(q => q.quizId === req.params['qid']))
+const findAllQuestions = () => questions
+const findQuestionsForQuiz = (quizId) => questions.filter(question => question.quizId === quizId)
 
-
-    app.get("/api/questions", findAllQuestions)
-
-    app.get("/api/quizzes/:qid/questions", findQuestionById)
-
+module.exports = {
+    findAllQuestions: findAllQuestions,
+    findQuestionsForQuiz: findQuestionsForQuiz
 }

@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5c15d44c-ffbc-4727-a070-595c8f006e82" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../cs4550-f20-client-angular-michellekang/src/services/lesson-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cs4550-f20-client-angular-michellekang/src/services/question-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cs4550-f20-client-angular-michellekang/src/services/quiz-service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/controllers/questions-controller.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/controllers/quizzes-controller.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
@@ -83,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606181957276</updated>
-      <workItem from="1606181962779" duration="7672000" />
+      <workItem from="1606181962779" duration="10889000" />
     </task>
     <servers />
   </component>

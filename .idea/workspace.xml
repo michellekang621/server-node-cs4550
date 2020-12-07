@@ -23,14 +23,25 @@
       <change afterPath="$PROJECT_DIR$/../cs4550-f20-client-angular-michellekang/src/services/lesson-service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cs4550-f20-client-angular-michellekang/src/services/question-service.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cs4550-f20-client-angular-michellekang/src/services/quiz-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/questions-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/quizzes-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/questions-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/questions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/quizzes-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/quizzes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/quiz-attempts-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/questions.dao.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/quiz-attempts.dao.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/quizzes.dao.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/questions/questions.models.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/questions/questions.schema.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/quiz-attempts/quiz-attempts.models.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/quiz-attempts/quiz-attempts.schema.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/quizzes/quizzes.models.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/quizzes/quizzes.schema.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webdev-backend/assets/Ellipse 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webdev-backend/assets/Ellipse 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webdev-backend/assets/Ellipse 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webdev-backend/assets/Ellipse 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webdev-backend/assets/Ellipse1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webdev-backend/assets/lake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webdev-backend/assets/nature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webdev-backend/data/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webdev-backend/services/user-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../CS3500/HW01.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../CS3500/code/hw01.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs4550-f20-server-java-michellekang/src/main/webapp/course-editor/course-editor.template.client.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cs4550-f20-server-java-michellekang/src/main/webapp/course-editor/course-editor.template.client.html" afterDir="false" />
@@ -39,6 +50,15 @@
       <change beforePath="$PROJECT_DIR$/../cs4550-f20-server-java-michellekang/src/main/webapp/login/login.template.client.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cs4550-f20-server-java-michellekang/src/main/webapp/login/login.template.client.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs4550-f20-server-java-michellekang/src/main/webapp/profile/profile.template.client.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cs4550-f20-server-java-michellekang/src/main/webapp/profile/profile.template.client.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cs4550-f20-server-java-michellekang/src/main/webapp/register/register.template.client.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cs4550-f20-server-java-michellekang/src/main/webapp/register/register.template.client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/questions-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/questions-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/quizzes-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/quizzes-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/questions-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/questions-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/quizzes-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/quizzes-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../SPRING 2020/CS3650/HW01/linux.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Screen Shot 2019-09-05 at 3.59.58 PM.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Social Psych/Dev SELF CONCEPT Activity (2) (3).docx" beforeDir="false" />
@@ -51,7 +71,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kiSXJtpjdjKNT0kj19BTwaEviz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -73,6 +93,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/services" />
     </key>
@@ -85,7 +108,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606181957276</updated>
-      <workItem from="1606181962779" duration="10889000" />
+      <workItem from="1606181962779" duration="11411000" />
+      <workItem from="1606274509331" duration="3308000" />
+      <workItem from="1606887716895" duration="7348000" />
+      <workItem from="1607209759443" duration="387000" />
+      <workItem from="1607305261402" duration="5760000" />
     </task>
     <servers />
   </component>
@@ -102,5 +129,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
